@@ -1,0 +1,6 @@
+<Recovery>
+   <RecoveryTools>
+      <RelativeFilePath>menuamd64.exe</RelativeFilePath>
+      <AdminOnly>Yes</AdminOnly>
+   </RecoveryTools>
+</Recovery>

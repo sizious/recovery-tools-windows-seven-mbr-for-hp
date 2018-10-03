@@ -1,0 +1,6 @@
+<Recovery>
+   <RecoveryTools>
+      <RelativeFilePath>menux86.exe</RelativeFilePath>
+      <AdminOnly>Yes</AdminOnly>
+   </RecoveryTools>
+</Recovery>

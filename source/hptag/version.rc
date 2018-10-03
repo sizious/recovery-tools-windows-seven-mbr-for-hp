@@ -1,0 +1,34 @@
+#include <winver.h>
+#include <windows.h>
+
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+
+BEGIN
+
+	BLOCK "StringFileInfo"
+	BEGIN
+		BLOCK "040C04E4"
+		BEGIN
+			VALUE "Comments", "http://www.sizious.com/\0"
+			VALUE "CompanyName", "SiZiOUS\0"
+			VALUE "FileDescription", "HP Recovery Boot Sector Tag\0"
+			VALUE "FileVersion", "1.0.0.0"
+			VALUE "InternalName", "hptag.exe\0"
+			VALUE "LegalCopyright", "© Copyleft 2015\0"
+			VALUE "LegalTrademarks", "HP is a registered trademark that belong to Hewlett-Packard Development Company, L.P.\0"
+			VALUE "OriginalFilename", "hptag.exe\0"
+			VALUE "ProductName", "HP Recovery Boot Sector Tag\0"
+			VALUE "ProductVersion", "1.0.0.0"
+		END
+	END
+
+	BLOCK "VarFileInfo"
+	BEGIN
+		VALUE "Translation", 1036, 1252
+	END
+
+END

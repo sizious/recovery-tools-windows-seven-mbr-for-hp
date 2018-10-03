@@ -1,0 +1,24 @@
+19c19
+< RecoveryPartitionOnStartOfDisk=0
+---
+> RecoveryPartitionOnStartOfDisk=1
+59c59
+< LockSystem=1
+---
+> LockSystem=0
+107c107
+< SwapPart=1
+---
+> SwapPart=0
+110,112c110,112
+< QuietCountDown=1
+< AutoHideRecovery=0
+< ShowRecoveryPart=1
+---
+> QuietCountDown=0
+> AutoHideRecovery=1
+> ShowRecoveryPart=0
+116c116
+< CountMode=1
+---
+> CountMode=5
